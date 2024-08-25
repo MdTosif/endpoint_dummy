@@ -18,6 +18,9 @@ const dbConfig = {
     tableName: 'knex_migrations',
     directory: './src/migrations',
   },
+  seeds: {
+    directory: './src/seeds',
+  },
   log: {
     debug: console.log,
     error: console.log,

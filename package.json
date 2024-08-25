@@ -11,6 +11,7 @@
     "eslint:lint:files": "eslint src/**/*.ts",
     "migrate:up": "knex migrate:latest",
     "migrate:down": "knex migrate:rollback --all ",
+    "seed:run": "knex seed:run --env=dev",
     "lint": "next lint"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "pg": "^8.12.0",
     "react": "^18",
     "react-dom": "^18",
+    "swr": "^2.2.4",
     "zod": "^3.23.8"
   },
   "devDependencies": {
